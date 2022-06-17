@@ -26,6 +26,9 @@ bodyEvent.addEventListener("keyup", (pressedKey) => {
         case typoValue == ")":
             inputValue(typoValue);
             break;
+        case typoValue == "%":
+            inputValue(typoValue);
+            break;
         case typoValue == ".":
             inputValue(typoValue);
             break;
@@ -64,7 +67,12 @@ function operation(action) {
             break;
     }
 }
-function calculate(params) {let calcValue = eval(displayValue.value); displayValue.value = calcValue;}
+function calculate() {
+    if (displayValue.value.includes('%')) {
+        displayValue.value = displayValue.value.replace('%','/100')
+    }
+    let calcValue = eval(displayValue.value); displayValue.value = calcValue;
+}
 function clearScreen() {displayValue.value = "";}
 function backspaceClear() {
     let removelastChar = displayValue.value;
