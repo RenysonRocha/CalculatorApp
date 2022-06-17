@@ -71,7 +71,8 @@ function calculate() {
     if (displayValue.value.includes('%')) {
         displayValue.value = displayValue.value.replace('%','/100')
     }
-    let calcValue = eval(displayValue.value); displayValue.value = calcValue;
+    if (displayValue.value == "") {displayValue.value = ""}
+    else{let calcValue = eval(displayValue.value); displayValue.value = calcValue;}
 }
 function clearScreen() {displayValue.value = "";}
 function backspaceClear() {
