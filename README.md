@@ -9,7 +9,8 @@ Para apagar caracteres adicionado erroneamente sem perder os valores digitados p
 Agora para limpar a tela do app, basta usar o butão "C" no app.
 
 //English
-App develope using HTML, CSS, JavaScript and the framework Boostrap.
+
+App developed using HTML, CSS, JavaScript and the framework Boostrap.
 
 Calculator app created to practice all the basis knowledges of javascript (programming logic), HTML and CSS to creates and stylization of the fron end and Bootstrap framework to personalize and adds responsivity
 
