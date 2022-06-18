@@ -11,6 +11,7 @@ Para apagar caracteres adicionado erroneamente sem perder os valores digitados p
 Agora para limpar a tela do app, basta usar o butão "C" no app.
 
 Para acessar o aplicativo, clique no link a baixo:
+
 https://renysonrocha.github.io/CalculatorApp/
 
 //English
@@ -24,4 +25,5 @@ To clear a caracter that was typed by mistake, you can use the backspace key.
 To reset the screen, you can use the key "C" in the app keyboard.
 
 To access the app, please click in the link below:
+
 https://renysonrocha.github.io/CalculatorApp/
